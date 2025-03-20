@@ -1,27 +1,32 @@
 #main-navbar {
-	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6e6b4+23,f6e6b4+34,ed9017+58,ed9017+58 */
-background: linear-gradient(to bottom,  #f6e6b4 23%,#f6e6b4 34%,#ed9017 58%,#ed9017 58%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-color: blue;
+	overflow:hidden;
 }
 
 #navbar-conatiner {
+	float: left;
 	width: 100%;
 	position: relative;
-	text-align: center;
 }
 
 #main-navbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	display: inline-block;
-	vertical-align: top;
+	position: relative;
+	left: 50%;
+	float: left;
 }
 	
 #main-navbar ul li {
   float: left;
+  postion: relative;
+  right: 50%;
+  display: block;
 }
 
 #main-navbar ul li a {
+  display: block;
   padding: 10px 20px;
   color: pink;
   text-decoration; underline;
@@ -31,3 +36,33 @@ background: linear-gradient(to bottom,  #f6e6b4 23%,#f6e6b4 34%,#ed9017 58%,#ed9
 	background-color: black;
 	text color: yellow;
 }
+
+#onpage {
+	text-decoration:underline;
+}
+
+#sidebar {
+	position: fixed;
+	right: 0%;
+	background-color: red;
+	hieght: 100%;
+	width: 20%;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+#sidebar ul li a {
+	display: block;
+	padding: 10px 0;
+	color: black;
+	text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+	background-color: #000;
+}
+	
